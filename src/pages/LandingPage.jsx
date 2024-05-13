@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import MainContent from "../components/MainContent";
 import FrequentQuestion from "../components/FrequesntQuestion";
+import Footer from "../components/Footer";
 
 function LandingPage() {
   return (
@@ -10,6 +11,8 @@ function LandingPage() {
       <MainContent />
 
       <FrequentQuestion />
+
+      <Footer />
     </div>
   );
 }
