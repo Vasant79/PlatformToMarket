@@ -4,6 +4,7 @@ import RegisterationPage from "./pages/RegisterationPage";
 
 const publicRoutes = [
   { path: "/", element: <LandingPage /> },
+  { path: "/home", element: <LandingPage /> },
   {
     path: "/success",
     element: <SuccessPage />,

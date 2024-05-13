@@ -1,5 +1,17 @@
+import Header from "../components/Header";
+import MainContent from "../components/MainContent";
+import FrequentQuestion from "../components/FrequesntQuestion";
+
 function LandingPage() {
-  return <div>This is landing Page</div>;
+  return (
+    <div>
+      <Header />
+
+      <MainContent />
+
+      <FrequentQuestion />
+    </div>
+  );
 }
 
 export default LandingPage;
