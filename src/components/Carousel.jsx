@@ -22,7 +22,7 @@ function Carousel({ text = defaultText }) {
   const renderText = text.map((eachText, index) => {
     return (
       <div
-        className={`w-auto p-5 h-52 font-manrope text-4xl lg:w-96 overflow-hidden 
+        className={`w-auto p-5 h-56 font-manrope text-4xl lg:w-96 overflow-hidden 
         ${index === display ? "block" : "hidden"}`}
         key={eachText}
       >
@@ -32,7 +32,7 @@ function Carousel({ text = defaultText }) {
   });
   return (
     <div>
-      <div className="mt-20 flex justify-center items-center">
+      <div className="mt-20 mb-5 flex justify-center items-center">
         <div className="flex">
           <GoChevronLeft
             className="text-4xl text-gray-300 cursor-pointer"

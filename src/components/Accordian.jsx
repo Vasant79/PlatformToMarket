@@ -21,7 +21,11 @@ const Accordian = ({ data }) => {
   }
   const renderData = data.map((item, index) => {
     return (
-      <div key={item.question} onClick={() => toggleAnswer(index)}>
+      <div
+        className="mb-2 border-b border-accordian-line"
+        key={item.question}
+        onClick={() => toggleAnswer(index)}
+      >
         <div className="flex justify-between font-manrope text-xl text-wrap">
           {" "}
           {item.question}

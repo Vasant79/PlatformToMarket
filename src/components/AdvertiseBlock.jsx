@@ -1,18 +1,20 @@
 function AdvertiseBlock({
   className,
   svg = null,
+  svgCss = null,
   heading,
+  headingCss = "",
   subheading = "",
+  subHeadingCss = "",
   content = "",
+  contentCss = "",
 }) {
   return (
     <div className={className}>
-      <div className="flex justify-around">
-        {svg && <img src={svg} alt="svg" />}
-        {heading}
-      </div>
-      <div>{subheading && subheading}</div>
-      <article className="p-3 text-wrap">{content}</article>
+      {svg && <img className={svgCss} src={svg} alt="svg" />}
+      <span className={headingCss}>{heading}</span>
+      <span className={subHeadingCss}>{subheading && subheading}</span>
+      <article className={contentCss}>{content}</article>
     </div>
   );
 }
