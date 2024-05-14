@@ -11,7 +11,7 @@ import "./Advertise.css";
 function Advertise() {
   return (
     <div className="flex justify-around">
-      <div className="relative hidden md:block md:h-auto ">
+      <div className="relative hidden md:block md:h-auto md:ml-20 ">
         <img className="rounded-3xl" src={girlImage} alt="image" />
 
         <div className="absolute top-20 -left-24 ">
