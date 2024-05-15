@@ -6,7 +6,7 @@ TailwindCss
 
 # run in development
 
-1. copy the git hun repo link.
+1. copy the git hub repo link.
 2. open vs code, navigate to folder type npm i
 3. npm run dev
 
