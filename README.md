@@ -1,8 +1,44 @@
-# React + Vite
+# About Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tech Stack used :
+React Js
+TailwindCss
 
-Currently, two official plugins are available:
+# run in development
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. copy the git hun repo link.
+2. open vs code, navigate to folder type npm i
+3. npm run dev
+
+# Features
+
+1. React rounting using react-router dom library.
+   routes - /, /home, /registration, /success.
+
+2. Zod validation of form.
+3. Responsive design ( mobiles & large screen).
+
+# Project snapshot
+
+## LandingPage
+
+1. Click on Get Project to go to registeration section.
+
+2. Click on question in accordion, displays the answer if present.
+
+![alt text](./src//assets/images/landingpage-p-1.jpeg)
+
+![alt text](./src/assets/images/landingpage-p-2.jpeg)
+
+## RegisterationPage
+
+1. Check for email validation.
+2. Upon submission redirects to success page
+
+![alt text](./src/assets/images/registerationPage.jpeg)
+
+## SuccessPage
+
+Confirms the Submission
+
+![alt text](./src/assets//images/successPage.jpeg)
